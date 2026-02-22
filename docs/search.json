@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Guillermo’s Portfolio",
+    "section": "",
+    "text": "I am a bioinformatician with a strong interest in human health, software development and project management. Experienced in R and analysis of omics data, always eager to learn the tools and write the code needed to research and fight disease.\nAs a postdoctoral researcher in Christiana Ruhrberg’s lab at UCL, I analyse bulk and single-cell RNAseq data from patients with peripheral artery disease and from mouse models that reproduce this disease. This work is funded by the Leducq Foundation and by the British Heart Foundation.\nIn this website, you can find links to my repositories, which contain code to easily run and automate various transcriptomic analyses, source code from my Shiny apps, and others. On the publications page you can find information about my scientific articles."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Guillermo’s Portfolio",
+    "section": "",
+    "text": "I am a bioinformatician with a strong interest in human health, software development and project management. Experienced in R and analysis of omics data, always eager to learn the tools and write the code needed to research and fight disease.\nAs a postdoctoral researcher in Christiana Ruhrberg’s lab at UCL, I analyse bulk and single-cell RNAseq data from patients with peripheral artery disease and from mouse models that reproduce this disease. This work is funded by the Leducq Foundation and by the British Heart Foundation.\nIn this website, you can find links to my repositories, which contain code to easily run and automate various transcriptomic analyses, source code from my Shiny apps, and others. On the publications page you can find information about my scientific articles."
+  },
+  {
+    "objectID": "index.html#repositories",
+    "href": "index.html#repositories",
+    "title": "Guillermo’s Portfolio",
+    "section": "Repositories",
+    "text": "Repositories\n\nrunDESeq2\nhttps://github.com/g-pinel/runDESeq2\n\nBulk RNA-seq experiments often include many samples belonging to multiple experimental groups and involve performing multiple comparisons between different subsets of these samples.\nThe functions in this repository allow you to run one or multiple pairwise differential expression analyses using the R DESeq2 package.\n\n\nautoGSEApreranked\nhttps://github.com/g-pinel/autoGSEApreranked\n\nGSEA (Gene Set Enrichment Analysis) is a software used to determine whether a group of genes shows differences between two biological states (e.g. treatment versus control, high versus low drug dose). In this type of analysis, all genes expressed by the input samples are sorted from those most enriched in one condition to those most enriched in the other, generating a ranked list. Then specific groups of genes are tested against this ranked list to identify those gene sets that are enriched in one of the biological states.\nHowever, standard GSEA analyses do not support controlling for covariates like sex and age. To overcome this, you can supply GSEA with your own ranked list of genes (GSEA Preranked). Differential expression analysis packages like R’s DESeq2, allow to control for covariates, and the test statistic that they output can be used as the ranking metric for the resulting genes.\nThe scripts in this repository allows you to easily generate the RNK files needed to run GSEA preranked by supplying DESeq2 objects (as RDS files) or results tables (as CSV files). You can do this in batch for multiple input files. In addition, scripts for running one or multiple GSEA preranked analyses with a single command is also provided. You can use the RNK files obtained with the code in this repository, or provide your own.\nYou can find more information about GSEA here."
+  }
+]

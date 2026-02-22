@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Guillermo’s Portfolio – portfolio_guillermo</title>
+<title>Guillermo’s Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">portfolio_guillermo</span>
+    <span class="navbar-title">Guillermo’s Portfolio</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -111,8 +111,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About me</a></li>
+  <li><a href="#repositories" id="toc-repositories" class="nav-link" data-scroll-target="#repositories">Repositories</a>
+  <ul class="collapse">
+  <li><a href="#rundeseq2" id="toc-rundeseq2" class="nav-link" data-scroll-target="#rundeseq2">runDESeq2</a></li>
+  <li><a href="#autogseapreranked" id="toc-autogseapreranked" class="nav-link" data-scroll-target="#autogseapreranked">autoGSEApreranked</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -136,9 +147,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="images/240725_J-TYE_UCL_271_IoO-Headshots_2225_Guillermo Díez Pinel.jpg" alt="Guillermo's headshot" align="left" width="1in/"></p>
+<section id="about-me" class="level2">
+<h2 class="anchored" data-anchor-id="about-me">About me</h2>
+<p><img src="images/headshot.jpg" align="left" width="250" style="float:left; padding-right:20px; padding-top:6px"></p>
+<p>I am a bioinformatician with a strong interest in human health, software development and project management. Experienced in R and analysis of omics data, always eager to learn the tools and write the code needed to research and fight disease.</p>
+<p>As a postdoctoral researcher in <a href="https://www.ucl.ac.uk/brain-sciences/ioo/research/research-labs-and-groups/ruhrberg-lab">Christiana Ruhrberg’s lab</a> at UCL, I analyse bulk and single-cell RNAseq data from patients with peripheral artery disease and from mouse models that reproduce this disease. This work is funded by the Leducq Foundation and by the British Heart Foundation.</p>
+<p>In this website, you can find links to <a href="https://github.com/g-pinel?tab=repositories">my repositories</a>, which contain code to easily run and automate various transcriptomic analyses, source code from my Shiny apps, and others. On the <a href="https://g-pinel.github.io/portfolio_guillermo/publications.html">publications page</a> you can find information about my scientific articles.</p>
+<p><br></p>
+</section>
+<section id="repositories" class="level2">
+<h2 class="anchored" data-anchor-id="repositories">Repositories</h2>
+<section id="rundeseq2" class="level3">
+<h3 class="anchored" data-anchor-id="rundeseq2">runDESeq2</h3>
+<p><a href="https://github.com/g-pinel/runDESeq2" class="uri">https://github.com/g-pinel/runDESeq2</a></p>
+<p><img src="images/deseq2.webp" align="left" width="150" style="float:left; padding-right:20px; padding-top:6px"></p>
+<p>Bulk RNA-seq experiments often include many samples belonging to multiple experimental groups and involve performing multiple comparisons between different subsets of these samples.</p>
+<p>The functions in this repository allow you to run <strong>one or multiple pairwise differential expression analyses</strong> using the R DESeq2 package.<br><br></p>
+</section>
+<section id="autogseapreranked" class="level3">
+<h3 class="anchored" data-anchor-id="autogseapreranked">autoGSEApreranked</h3>
+<p><a href="https://github.com/g-pinel/autoGSEApreranked" class="uri">https://github.com/g-pinel/autoGSEApreranked</a></p>
+<p><img src="images/gsea.png" align="left" width="200" style="float:left; padding-right:20px; padding-top:6px; padding-bottom:80px"></p>
+<p>GSEA (Gene Set Enrichment Analysis) is a software used to determine whether a group of genes shows differences between two biological states (e.g.&nbsp;treatment versus control, high versus low drug dose). In this type of analysis, all genes expressed by the input samples are sorted from those most enriched in one condition to those most enriched in the other, generating a ranked list. Then specific groups of genes are tested against this ranked list to identify those gene sets that are enriched in one of the biological states.</p>
+<p>However, standard GSEA analyses do not support controlling for covariates like sex and age. To overcome this, you can supply GSEA with your own ranked list of genes (GSEA Preranked). Differential expression analysis packages like R’s DESeq2, allow to control for covariates, and the test statistic that they output can be used as the ranking metric for the resulting genes.</p>
+<p>The scripts in this repository allows you to easily <strong>generate the RNK files</strong> needed to run GSEA preranked by supplying DESeq2 objects (as RDS files) or results tables (as CSV files). You can do this in batch for multiple input files. In addition, scripts for <strong>running one or multiple GSEA preranked analyses</strong> with a single command is also provided. You can use the RNK files obtained with the code in this repository, or provide your own.</p>
+<p>You can find more information about GSEA <a href="https://www.gsea-msigdb.org/gsea/index.jsp">here</a>.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
