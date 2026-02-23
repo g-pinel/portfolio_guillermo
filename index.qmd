@@ -4,7 +4,7 @@ title: "Guillermo's Portfolio"
 
 ## About me
 
-<img src="images/headshot.jpg" align="left" width="250" style="float:left; padding-right:20px; padding-top:6px"/>
+<img src="images/headshot.jpg" align="left" width="30%" style="float:left; padding-right:20px; padding-top:6px"/>
 
 I am a bioinformatician with a strong interest in human health, software development and project management. Experienced in R and analysis of omics data, always eager to learn the tools and write the code needed to research and fight disease.
 
@@ -20,7 +20,7 @@ In this website, you can find links to [my repositories](https://github.com/g-pi
 
 <https://github.com/g-pinel/runDESeq2>
 
-<img src="images/deseq2.webp" align="left" width="150" style="float:left; padding-right:20px; padding-top:6px"/>
+<img src="images/deseq2.webp" align="left" width="18%" style="float:left; padding-right:20px; padding-top:6px"/>
 
 Bulk RNA-seq experiments often include many samples belonging to multiple experimental groups and involve performing multiple comparisons between different subsets of these samples.
 
@@ -30,8 +30,8 @@ The functions in this repository allow you to run **one or multiple pairwise dif
 
 <https://github.com/g-pinel/runEnrichmentAnalyses>
 
-<img src="images/enrichment_db_logos.png" align="left" width="500" style="float:left; padding-top:6px"/>
-<br><br><br><br><br><br>
+<img src="images/enrichment_db_logos.png" align="left" width="60%" style="float:none; padding-top:6px; padding-bottom:0px"/>
+
 After performing differential expression analyses to obtain a list of differentially-expressed genes (DEGs), it is common to run enrichment analyses to identify groups of genes that participate in the same process or pathway and are enriched in one of the groups being compared.
 
 The functions in this repository allow you to easily run enrichment analyses in R against the Gene Ontology, KEGG, Wiki Pathways and Reactome databases using DESeq2's DeseqDataSet (DDS) objects as inputs.
@@ -41,7 +41,7 @@ The functions in this repository allow you to easily run enrichment analyses in 
 
 <https://github.com/g-pinel/autoGSEApreranked>
 
-<img src="images/gsea.png" align="left" width="200" style="float:left; padding-right:20px; padding-top:6px; padding-bottom:80px"/>
+<img src="images/gsea.png" align="left" width="200" style="float:none; padding-right:20px; padding-top:6px"/>
 
 GSEA (Gene Set Enrichment Analysis) is a software used to determine whether a group of genes shows differences between two biological states (e.g. treatment versus control, high versus low drug dose). In this type of analysis, all genes expressed by the input samples are sorted from those most enriched in one condition to those most enriched in the other, generating a ranked list. Then specific groups of genes are tested against this ranked list to identify those gene sets that are enriched in one of the biological states.
 
@@ -56,7 +56,7 @@ You can find more information about GSEA [here](https://www.gsea-msigdb.org/gsea
 
 <https://github.com/g-pinel/qPCR-analyzer>
 
-<img src="images/quantstudio.jpg" align="left" width="150" style="float:left; padding-top:6px; padding-right:20px"/>
+<img src="images/quantstudio.jpg" align="left" width="22%" style="float:left; padding-top:6px; padding-right:20px"/>
 
 Process your qRT-PCR data generated using the QuantStudio software with a single command. Simply provide your QuantStudio output excel files to obtain CTs, delta CTs, and levels (2<sup>-ΔCt</sup>). 
 <br><br>

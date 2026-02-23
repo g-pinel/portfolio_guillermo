@@ -10,12 +10,9 @@ Erythro-myeloid progenitors (EMPs) originate from the haemogenic endothelium in 
 
 I analysed a single-cell RNA sequencing datasets from mouse embryos to identify novel cell surface markers of haemogenic endothelium (*Fxyd5* and *Scarf1*) and EMPs (*Fcer1g*, *Tyrobp*, and *Mctp1*). Further, I identified candidate signalling and metabolic pathways that may regulate yolk sac haematopoietic emergence and differentiation. These insights into the transcriptional dynamics in the yolk sac should support future investigation of EHT and haematopoietic differentiation during early mammalian development.
 
+<img src="images/emp_1.png" align="left" width="43%" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:30px"/>
 
-<img src="images/emp_1.png" align="left" height="230" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>
-
-<img src="images/emp_2.png" align="left" height="230" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>
-
-<br><br><br><br><br><br><br>
+<img src="images/emp_2.png" align="left" width="57%" style="float:none; padding-right:10px; padding-top:20px; padding-bottom:30px"/>
 
 ### Endothelial transcriptomic, epigenomic and proteomic data challenge the proposed role for TSAd in vascular permeability
 
@@ -25,8 +22,8 @@ The vascular endothelial growth factor VEGF drives excessive vascular permeabili
 
 We have mined publicly available omics data (bulk and single-cell RNA-sequencing, proteomics, epigenomics) for expression of TSAd and other permeability-relevant signal transducers in multiple organs affected by VEGF-induced vascular permeability. TSAd protein and transcripts were largely undetected or expressed at extremely low levels in all datasets analysed, inconsistent with a universal role for TSAd in permeability signalling.
 
-<img src="images/tsad_1.webp" align="left" height="250" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>
+<img src="images/tsad_1.webp" align="left" width="50%" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:30px"/>
 
-<img src="images/tsad_2.webp" align="left" height="250" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>
+<img src="images/tsad_2.webp" align="left" width="25%" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:30px"/>
 
-<img src="images/tsad_3.webp" align="left" height="250" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>
+<img src="images/tsad_3.webp" align="left" width="25%" style="float:none; padding-right:10px; padding-top:20px; padding-bottom:30px"/>
