@@ -1,3 +1,32 @@
 ---
 title: "Publications"
 ---
+
+### Discovery of New Markers for Haemogenic Endothelium and Haematopoietic Progenitors in the Mouse Yolk Sac
+
+Diez-Pinel, G., Muratore, A., Ruhrberg, C., & Canu, G. (2026). Discovery of New Markers for Haemogenic Endothelium and Haematopoietic Progenitors in the Mouse Yolk Sac. *Journal of Developmental Biology*, 14(1), 4. <https://doi.org/10.3390/jdb14010004> 
+
+Erythro-myeloid progenitors (EMPs) originate from the haemogenic endothelium in the yolk sac via an endothelial-to-haematopoietic transition (EHT) to generate blood and immune cells that support embryo development. Yolk sac-derived EMPs generate blood and immune cells important for embryogenesis and self-renewing tissue-resident macrophages that persist into adulthood.
+
+I analysed a single-cell RNA sequencing datasets from mouse embryos to identify novel cell surface markers of haemogenic endothelium (*Fxyd5* and *Scarf1*) and EMPs (*Fcer1g*, *Tyrobp*, and *Mctp1*). Further, I identified candidate signalling and metabolic pathways that may regulate yolk sac haematopoietic emergence and differentiation. These insights into the transcriptional dynamics in the yolk sac should support future investigation of EHT and haematopoietic differentiation during early mammalian development.
+
+
+<img src="images/emp_1.png" align="left" height="230" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>
+
+<img src="images/emp_2.png" align="left" height="230" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>
+
+<br><br><br><br><br><br><br>
+
+### Endothelial transcriptomic, epigenomic and proteomic data challenge the proposed role for TSAd in vascular permeability
+
+Brash, J.T., Diez-Pinel, G., Rinaldi, L. et al. Endothelial transcriptomic, epigenomic and proteomic data challenge the proposed role for TSAd in vascular permeability. *Angiogenesis* 28, 21 (2025). <https://doi.org/10.1007/s10456-025-09971-x>
+
+The vascular endothelial growth factor VEGF drives excessive vascular permeability causing tissue-damaging oedema in neovascular and inflammatory diseases. Several molecular pathways have been implicated in VEGF-induced hyperpermeability, including binding of the receptor VEGFR2 by the T-cell specific adaptor (TSAd) to recruit a SRC family kinase to induce junction opening between vascular endothelial cells (ECs).
+
+We have mined publicly available omics data (bulk and single-cell RNA-sequencing, proteomics, epigenomics) for expression of TSAd and other permeability-relevant signal transducers in multiple organs affected by VEGF-induced vascular permeability. TSAd protein and transcripts were largely undetected or expressed at extremely low levels in all datasets analysed, inconsistent with a universal role for TSAd in permeability signalling.
+
+<img src="images/tsad_1.webp" align="left" height="250" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>
+
+<img src="images/tsad_2.webp" align="left" height="250" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>
+
+<img src="images/tsad_3.webp" align="left" height="250" style="float:left; padding-right:10px; padding-top:20px; padding-bottom:50px"/>

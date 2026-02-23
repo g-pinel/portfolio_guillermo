@@ -26,6 +26,17 @@ Bulk RNA-seq experiments often include many samples belonging to multiple experi
 
 The functions in this repository allow you to run **one or multiple pairwise differential expression analyses** using the R DESeq2 package.<br><br>
 
+### runEnrichmentAnalyses
+
+<https://github.com/g-pinel/runEnrichmentAnalyses>
+
+<img src="images/enrichment_db_logos.png" align="left" width="500" style="float:left; padding-top:6px"/>
+<br><br><br><br><br><br>
+After performing differential expression analyses to obtain a list of differentially-expressed genes (DEGs), it is common to run enrichment analyses to identify groups of genes that participate in the same process or pathway and are enriched in one of the groups being compared.
+
+The functions in this repository allow you to easily run enrichment analyses in R against the Gene Ontology, KEGG, Wiki Pathways and Reactome databases using DESeq2's DeseqDataSet (DDS) objects as inputs.
+
+
 ### autoGSEApreranked
 
 <https://github.com/g-pinel/autoGSEApreranked>
@@ -39,3 +50,14 @@ However, standard GSEA analyses do not support controlling for covariates like s
 The scripts in this repository allows you to easily **generate the RNK files** needed to run GSEA preranked by supplying DESeq2 objects (as RDS files) or results tables (as CSV files). You can do this in batch for multiple input files. In addition, scripts for **running one or multiple GSEA preranked analyses** with a single command is also provided. You can use the RNK files obtained with the code in this repository, or provide your own.
 
 You can find more information about GSEA [here](https://www.gsea-msigdb.org/gsea/index.jsp).
+
+
+### qPCR analyzer
+
+<https://github.com/g-pinel/qPCR-analyzer>
+
+<img src="images/quantstudio.jpg" align="left" width="150" style="float:left; padding-top:6px; padding-right:20px"/>
+
+Process your qRT-PCR data generated using the QuantStudio software with a single command. Simply provide your QuantStudio output excel files to obtain CTs, delta CTs, and levels (2<sup>-ΔCt</sup>). 
+<br><br>
+Both XLS and XLSX supported, as well as combining multiple files from the same project.
