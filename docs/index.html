@@ -171,13 +171,13 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://github.com/g-pinel/runEnrichmentAnalyses" class="uri">https://github.com/g-pinel/runEnrichmentAnalyses</a></p>
 <p><img src="images/enrichment_db_logos.png" align="left" width="60%" style="float:none; padding-top:6px; padding-bottom:0px"></p>
 <p>After performing differential expression analyses to obtain a list of differentially-expressed genes (DEGs), it is common to run enrichment analyses to identify groups of genes that participate in the same process or pathway and are enriched in one of the groups being compared.</p>
-<p>The functions in this repository allow you to easily run enrichment analyses in R against the Gene Ontology, KEGG, Wiki Pathways and Reactome databases using DESeq2’s DeseqDataSet (DDS) objects as inputs.</p>
+<p>The functions in this repository allow you to easily <strong>run enrichment analyses in R against the Gene Ontology, KEGG, Wiki Pathways and Reactome databases</strong> using DESeq2’s DeseqDataSet (DDS) objects as inputs.</p>
 </section>
 <section id="autogseapreranked" class="level3">
 <h3 class="anchored" data-anchor-id="autogseapreranked">autoGSEApreranked</h3>
 <p><a href="https://github.com/g-pinel/autoGSEApreranked" class="uri">https://github.com/g-pinel/autoGSEApreranked</a></p>
 <p><img src="images/gsea.png" align="left" width="200" style="float:none; padding-right:20px; padding-top:6px"></p>
-<p>GSEA (Gene Set Enrichment Analysis) is a software used to determine whether a group of genes shows differences between two biological states (e.g.&nbsp;treatment versus control, high versus low drug dose). In this type of analysis, all genes expressed by the input samples are sorted from those most enriched in one condition to those most enriched in the other, generating a ranked list. Then specific groups of genes are tested against this ranked list to identify those gene sets that are enriched in one of the biological states.</p>
+<p>GSEA (Gene Set Enrichment Analysis) is a software used to determine whether a group of genes shows differences between two biological states (e.g.&nbsp;treatment versus control, high versus low drug dose). In this type of analysis, all genes expressed by the input samples are sorted from those most enriched in one condition to those most enriched in the other, generating a ranked list. Then, specific groups of genes are tested against this ranked list to identify those gene sets that are enriched in one of the biological states.</p>
 <p>However, standard GSEA analyses do not support controlling for covariates like sex and age. To overcome this, you can supply GSEA with your own ranked list of genes (GSEA Preranked). Differential expression analysis packages like R’s DESeq2, allow to control for covariates, and the test statistic that they output can be used as the ranking metric for the resulting genes.</p>
 <p>The scripts in this repository allows you to easily <strong>generate the RNK files</strong> needed to run GSEA preranked by supplying DESeq2 objects (as RDS files) or results tables (as CSV files). You can do this in batch for multiple input files. In addition, scripts for <strong>running one or multiple GSEA preranked analyses</strong> with a single command is also provided. You can use the RNK files obtained with the code in this repository, or provide your own.</p>
 <p>You can find more information about GSEA <a href="https://www.gsea-msigdb.org/gsea/index.jsp">here</a>.</p>
@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="qpcr-analyzer">qPCR analyzer</h3>
 <p><a href="https://github.com/g-pinel/qPCR-analyzer" class="uri">https://github.com/g-pinel/qPCR-analyzer</a></p>
 <p><img src="images/quantstudio.jpg" align="left" width="22%" style="float:left; padding-top:6px; padding-right:20px"></p>
-<p>Process your qRT-PCR data generated using the QuantStudio software with a single command. Simply provide your QuantStudio output excel files to obtain CTs, delta CTs, and levels (2<sup>-ΔCt</sup>). <br><br> Both XLS and XLSX supported, as well as combining multiple files from the same project.</p>
+<p>Process your <strong>qRT-PCR data generated using QuantStudio</strong> with a single command. Simply provide your QuantStudio output excel files to obtain CTs, delta CTs, and levels (2<sup>-ΔCt</sup>). <br><br> Both XLS and XLSX supported, as well as combining multiple files from the same project.</p>
 
 
 </section>

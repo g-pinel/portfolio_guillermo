@@ -34,7 +34,7 @@ The functions in this repository allow you to run **one or multiple pairwise dif
 
 After performing differential expression analyses to obtain a list of differentially-expressed genes (DEGs), it is common to run enrichment analyses to identify groups of genes that participate in the same process or pathway and are enriched in one of the groups being compared.
 
-The functions in this repository allow you to easily run enrichment analyses in R against the Gene Ontology, KEGG, Wiki Pathways and Reactome databases using DESeq2's DeseqDataSet (DDS) objects as inputs.
+The functions in this repository allow you to easily **run enrichment analyses in R against the Gene Ontology, KEGG, Wiki Pathways and Reactome databases** using DESeq2's DeseqDataSet (DDS) objects as inputs.
 
 
 ### autoGSEApreranked
@@ -43,7 +43,7 @@ The functions in this repository allow you to easily run enrichment analyses in 
 
 <img src="images/gsea.png" align="left" width="200" style="float:none; padding-right:20px; padding-top:6px"/>
 
-GSEA (Gene Set Enrichment Analysis) is a software used to determine whether a group of genes shows differences between two biological states (e.g. treatment versus control, high versus low drug dose). In this type of analysis, all genes expressed by the input samples are sorted from those most enriched in one condition to those most enriched in the other, generating a ranked list. Then specific groups of genes are tested against this ranked list to identify those gene sets that are enriched in one of the biological states.
+GSEA (Gene Set Enrichment Analysis) is a software used to determine whether a group of genes shows differences between two biological states (e.g. treatment versus control, high versus low drug dose). In this type of analysis, all genes expressed by the input samples are sorted from those most enriched in one condition to those most enriched in the other, generating a ranked list. Then, specific groups of genes are tested against this ranked list to identify those gene sets that are enriched in one of the biological states.
 
 However, standard GSEA analyses do not support controlling for covariates like sex and age. To overcome this, you can supply GSEA with your own ranked list of genes (GSEA Preranked). Differential expression analysis packages like R's DESeq2, allow to control for covariates, and the test statistic that they output can be used as the ranking metric for the resulting genes.
 
@@ -58,6 +58,6 @@ You can find more information about GSEA [here](https://www.gsea-msigdb.org/gsea
 
 <img src="images/quantstudio.jpg" align="left" width="22%" style="float:left; padding-top:6px; padding-right:20px"/>
 
-Process your qRT-PCR data generated using the QuantStudio software with a single command. Simply provide your QuantStudio output excel files to obtain CTs, delta CTs, and levels (2<sup>-ΔCt</sup>). 
+Process your **qRT-PCR data generated using QuantStudio** with a single command. Simply provide your QuantStudio output excel files to obtain CTs, delta CTs, and levels (2<sup>-ΔCt</sup>). 
 <br><br>
 Both XLS and XLSX supported, as well as combining multiple files from the same project.
