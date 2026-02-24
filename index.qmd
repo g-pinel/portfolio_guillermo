@@ -16,6 +16,37 @@ In this website, you can find links to [my repositories](https://github.com/g-pi
 
 ## Repositories
 
+### E8.5 HaematoEC (web application)
+
+<https://github.com/g-pinel/EMPs/>
+
+This repository contains the script used to run the following Shiny App:
+<br>
+<https://g-pinel.shinyapps.io/Haematoendothelial_E8_5/>
+
+This web app is a companion to our publication *Discovery of New Markers for Haemogenic Endothelium and Haematopoietic Progenitors in the Mouse Yolk Sac* ([pubmed link](https://pubmed.ncbi.nlm.nih.gov/41562864/)). (See my [publications page](https://g-pinel.github.io/portfolio_guillermo/publications.html) for further information).
+
+It allows exploration of **single-cell RNAseq data from endothelial and haematopoietic cells from embryonic day 8.5 mouse samples** using our refined annotations.
+
+You can query any gene to generate plots showing normalised expression levels and the absolute and relative number of cells in which the gene was detected, by cluster. A table showing subcellular location information for the proteins encoded by queried genes is also shown. In addition, you can use it to run differential expression analyses to identify markers specific to one cluster, or to compare one or more clusters against others (customizable).
+
+<img src="images/emp_shinyapp.png" align="left" width="100%" style="float:none; padding-top:5px; padding-bottom:30px"/>
+
+### BulkECexplorer (web application)
+
+<https://github.com/ruhrberg/BulkECexplorer>
+
+This repository contains the script used to run the following Shiny App:
+<br>
+<https://ruhrberglab.shinyapps.io/BulkECexplorer/>
+
+This web appplicaton was published in the article *The BulkECexplorer compiles endothelial bulk transcriptomes to predict functional versus leaky transcription* ([pubmed link](https://pubmed.ncbi.nlm.nih.gov/38708406/)). (See my [publications page](https://g-pinel.github.io/portfolio_guillermo/publications.html) for further information).
+
+With this app, you can access and analyse gene expression across the 240 samples in our endothelial cell (EC) bulk RNAseq data compendium. These samples include 5 EC subtypes commonly used in vascular biology research: HUVECs and HDMECs (human); lung, brain and retina ECs (mouse). The resulting dashboard, apart from **gene expression levels**, shows **predictions for active (functional) versus leaky (non-functional) gene expression** using three different classification methods. 
+
+<img src="images/bulkecexplorer_app1.png" align="left" width="66%" style="float:none; padding-top:5px"/>
+<img src="images/bulkecexplorer_app2.png" align="left" width="33%" style="float:none; padding-top:5px"/>
+
 ### runDESeq2
 
 <https://github.com/g-pinel/runDESeq2>

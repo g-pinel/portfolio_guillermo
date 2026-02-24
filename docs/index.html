@@ -119,6 +119,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About me</a></li>
   <li><a href="#repositories" id="toc-repositories" class="nav-link" data-scroll-target="#repositories">Repositories</a>
   <ul class="collapse">
+  <li><a href="#e8.5-haematoec-web-application" id="toc-e8.5-haematoec-web-application" class="nav-link" data-scroll-target="#e8.5-haematoec-web-application">E8.5 HaematoEC (web application)</a></li>
+  <li><a href="#bulkecexplorer-web-application" id="toc-bulkecexplorer-web-application" class="nav-link" data-scroll-target="#bulkecexplorer-web-application">BulkECexplorer (web application)</a></li>
   <li><a href="#rundeseq2" id="toc-rundeseq2" class="nav-link" data-scroll-target="#rundeseq2">runDESeq2</a></li>
   <li><a href="#runenrichmentanalyses" id="toc-runenrichmentanalyses" class="nav-link" data-scroll-target="#runenrichmentanalyses">runEnrichmentAnalyses</a></li>
   <li><a href="#autogseapreranked" id="toc-autogseapreranked" class="nav-link" data-scroll-target="#autogseapreranked">autoGSEApreranked</a></li>
@@ -159,6 +161,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="repositories" class="level2">
 <h2 class="anchored" data-anchor-id="repositories">Repositories</h2>
+<section id="e8.5-haematoec-web-application" class="level3">
+<h3 class="anchored" data-anchor-id="e8.5-haematoec-web-application">E8.5 HaematoEC (web application)</h3>
+<p><a href="https://github.com/g-pinel/EMPs/" class="uri">https://github.com/g-pinel/EMPs/</a></p>
+<p>This repository contains the script used to run the following Shiny App: <br> <a href="https://g-pinel.shinyapps.io/Haematoendothelial_E8_5/" class="uri">https://g-pinel.shinyapps.io/Haematoendothelial_E8_5/</a></p>
+<p>This web app is a companion to our publication <em>Discovery of New Markers for Haemogenic Endothelium and Haematopoietic Progenitors in the Mouse Yolk Sac</em> (<a href="https://pubmed.ncbi.nlm.nih.gov/41562864/">pubmed link</a>). (See my <a href="https://g-pinel.github.io/portfolio_guillermo/publications.html">publications page</a> for further information).</p>
+<p>It allows exploration of <strong>single-cell RNAseq data from endothelial and haematopoietic cells from embryonic day 8.5 mouse samples</strong> using our refined annotations.</p>
+<p>You can query any gene to generate plots showing normalised expression levels and the absolute and relative number of cells in which the gene was detected, by cluster. A table showing subcellular location information for the proteins encoded by queried genes is also shown. In addition, you can use it to run differential expression analyses to identify markers specific to one cluster, or to compare one or more clusters against others (customizable).</p>
+<p><img src="images/emp_shinyapp.png" align="left" width="100%" style="float:none; padding-top:5px; padding-bottom:30px"></p>
+</section>
+<section id="bulkecexplorer-web-application" class="level3">
+<h3 class="anchored" data-anchor-id="bulkecexplorer-web-application">BulkECexplorer (web application)</h3>
+<p><a href="https://github.com/ruhrberg/BulkECexplorer" class="uri">https://github.com/ruhrberg/BulkECexplorer</a></p>
+<p>This repository contains the script used to run the following Shiny App: <br> <a href="https://ruhrberglab.shinyapps.io/BulkECexplorer/" class="uri">https://ruhrberglab.shinyapps.io/BulkECexplorer/</a></p>
+<p>This web appplicaton was published in the article <em>The BulkECexplorer compiles endothelial bulk transcriptomes to predict functional versus leaky transcription</em> (<a href="https://pubmed.ncbi.nlm.nih.gov/38708406/">pubmed link</a>). (See my <a href="https://g-pinel.github.io/portfolio_guillermo/publications.html">publications page</a> for further information).</p>
+<p>With this app, you can access and analyse gene expression across the 240 samples in our endothelial cell (EC) bulk RNAseq data compendium. These samples include 5 EC subtypes commonly used in vascular biology research: HUVECs and HDMECs (human); lung, brain and retina ECs (mouse). The resulting dashboard, apart from <strong>gene expression levels</strong>, shows <strong>predictions for active (functional) versus leaky (non-functional) gene expression</strong> using three different classification methods.</p>
+<p><img src="images/bulkecexplorer_app1.png" align="left" width="66%" style="float:none; padding-top:5px"> <img src="images/bulkecexplorer_app2.png" align="left" width="33%" style="float:none; padding-top:5px"></p>
+</section>
 <section id="rundeseq2" class="level3">
 <h3 class="anchored" data-anchor-id="rundeseq2">runDESeq2</h3>
 <p><a href="https://github.com/g-pinel/runDESeq2" class="uri">https://github.com/g-pinel/runDESeq2</a></p>

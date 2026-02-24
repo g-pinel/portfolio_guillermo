@@ -4,7 +4,7 @@ title: "Publications"
 
 ### Discovery of New Markers for Haemogenic Endothelium and Haematopoietic Progenitors in the Mouse Yolk Sac
 
-Diez-Pinel, G., Muratore, A., Ruhrberg, C., & Canu, G. (2026). Discovery of New Markers for Haemogenic Endothelium and Haematopoietic Progenitors in the Mouse Yolk Sac. *Journal of Developmental Biology*, 14(1), 4. <https://doi.org/10.3390/jdb14010004> 
+**Diez-Pinel, G.**, Muratore, A., Ruhrberg, C., & Canu, G. (2026). Discovery of New Markers for Haemogenic Endothelium and Haematopoietic Progenitors in the Mouse Yolk Sac. *Journal of Developmental Biology*, 14(1), 4. <https://doi.org/10.3390/jdb14010004> 
 
 Erythro-myeloid progenitors (EMPs) originate from the haemogenic endothelium in the yolk sac via an endothelial-to-haematopoietic transition (EHT) to generate blood and immune cells that support embryo development. They are also give rise to self-renewing tissue-resident macrophages that persist into adulthood.
 
@@ -18,7 +18,7 @@ I analysed a single-cell RNA sequencing datasets from mouse embryos to identify 
 
 ### Endothelial transcriptomic, epigenomic and proteomic data challenge the proposed role for TSAd in vascular permeability
 
-Brash, J.T., Diez-Pinel, G., Rinaldi, L. et al. Endothelial transcriptomic, epigenomic and proteomic data challenge the proposed role for TSAd in vascular permeability. *Angiogenesis* 28, 21 (2025). <https://doi.org/10.1007/s10456-025-09971-x>
+Brash, J.T.\*, **Diez-Pinel, G.**\*, Rinaldi, L. et al. Endothelial transcriptomic, epigenomic and proteomic data challenge the proposed role for TSAd in vascular permeability. *Angiogenesis* 28, 21 (2025). <https://doi.org/10.1007/s10456-025-09971-x>. \* Contributed equally.
 
 The vascular endothelial growth factor VEGF drives excessive vascular permeability causing tissue-damaging oedema in neovascular and inflammatory diseases. Several molecular pathways have been implicated in VEGF-induced hyperpermeability, including binding of the receptor VEGFR2 by the T-cell specific adaptor (TSAd) to recruit a SRC family kinase to induce junction opening between vascular endothelial cells (ECs).
 
@@ -34,7 +34,7 @@ We have mined publicly available omics data (bulk and single-cell RNA-sequencing
 
 ### The BulkECexplorer compiles endothelial bulk transcriptomes to predict functional versus leaky transcription
 
-Brash, J.T., Diez-Pinel, G., Colletto, C. et al. The BulkECexplorer compiles endothelial bulk transcriptomes to predict functional versus leaky transcription. *Nat Cardiovasc Res* 3, 460–473 (2024). <https://doi.org/10.1038/s44161-024-00436-w>
+Brash, J.T., **Diez-Pinel, G.**, Colletto, C. et al. The BulkECexplorer compiles endothelial bulk transcriptomes to predict functional versus leaky transcription. *Nat Cardiovasc Res* 3, 460–473 (2024). <https://doi.org/10.1038/s44161-024-00436-w>
 
 RNA-seq experiments may detect lowly expressed mRNAs thought to be biologically irrelevant products of leaky transcription. To represent the functional transcriptome of endothelial cells (ECs) more accurately, we propose compiling many EC bulk RNA-seq datasets into a compendium and applying established classification models to predict whether detected transcripts are likely products of active or leaky transcription.
 
@@ -47,7 +47,7 @@ The [BulkECexplorer web application](https://ruhrberglab.shinyapps.io/BulkECexpl
 
 ### Endothelial Cell RNA-Seq Data: Differential Expression and Functional Enrichment Analyses to Study Phenotypic Switching
 
-Diez-Pinel, G. Horder J. L. et al. (2022). Endothelial Cell RNA-Seq Data: Differential Expression and Functional Enrichment Analyses to Study Phenotypic Switching. In: Benest, A.V. (eds) *Angiogenesis. Methods in Molecular Biology*, vol 2441. Humana, New York, NY. https://doi.org/10.1007/978-1-0716-2059-5_29
+**Diez-Pinel, G.**\* Horder J. L.\* et al. (2022). Endothelial Cell RNA-Seq Data: Differential Expression and Functional Enrichment Analyses to Study Phenotypic Switching. In: Benest, A.V. (eds) *Angiogenesis. Methods in Molecular Biology*, vol 2441. Humana, New York, NY. https://doi.org/10.1007/978-1-0716-2059-5_29. \* Contributed equally.
 
 RNA-seq is a common approach used to explore gene expression data between experimental conditions or cell types and ultimately leads to information that can shed light on the biological processes involved and inform further hypotheses.
 
@@ -59,7 +59,7 @@ We wrote a user-friendly bioinformatics workflow which describes the methods req
 
 ### A Pax3 lineage gives rise to transient haematopoietic progenitors
 
-Giovanni Canu, Rosamaria Correra, Guillermo Diez-Pinel, Raphaël F. P. Castellan, Laura Denti, Alessandro Fantin, Christiana Ruhrberg; A Pax3 lineage gives rise to transient haematopoietic progenitors. *Development* 1 December 2024; 151 (23): dev202924. doi: <https://doi.org/10.1242/dev.202924>
+Giovanni Canu, Rosamaria Correra, **Guillermo Diez-Pinel**, Raphaël F. P. Castellan, Laura Denti, Alessandro Fantin, Christiana Ruhrberg; A Pax3 lineage gives rise to transient haematopoietic progenitors. *Development* 1 December 2024; 151 (23): dev202924. doi: <https://doi.org/10.1242/dev.202924>
 
 During embryonic development, muscle tissues, skin, and a subset of vascular endothelial cells arise from Pax3-expressing embryonic progenitors defined as paraxial mesoderm.
 
