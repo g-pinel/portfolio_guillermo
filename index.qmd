@@ -6,9 +6,9 @@ title: "Guillermo's Portfolio"
 
 <img src="images/headshot.jpg" align="left" width="30%" style="float:left; padding-right:20px; padding-top:6px"/>
 
-I am a bioinformatician with a strong interest in human health, software development and project management. Experienced in R and analysis of omics data, always eager to learn the tools and write the code needed to research and fight disease.
+I am a bioinformatician with a strong interest in human health, software development and project management. Experience in R, Python and Bash for analysis of omics data. Always eager to learn the tools and write the code needed to research and fight disease.
 
-As a postdoctoral researcher in [Christiana Ruhrberg's lab](https://www.ucl.ac.uk/brain-sciences/ioo/research/research-labs-and-groups/ruhrberg-lab) at UCL, I analyse bulk and single-cell RNAseq data from patients with peripheral artery disease and from mouse models that reproduce this disease. This work is funded by the Leducq Foundation and by the British Heart Foundation.
+As a postdoctoral researcher in [Christiana Ruhrberg's lab](https://www.ucl.ac.uk/brain-sciences/ioo/research/research-labs-and-groups/ruhrberg-lab) at UCL, I integrate and analyse omics data from patients with peripheral artery disease and from mouse models that reproduce this disease. This work is funded by the Leducq Foundation and by the British Heart Foundation.
 
 In this website, you can find links to [my repositories](https://github.com/g-pinel?tab=repositories), which contain code to easily run and automate various transcriptomic analyses, source code from my Shiny apps, and others. On the [publications page](https://g-pinel.github.io/portfolio_guillermo/publications.html) you can find information about my scientific articles.
 
@@ -20,9 +20,7 @@ In this website, you can find links to [my repositories](https://github.com/g-pi
 
 <https://github.com/g-pinel/EMPs/>
 
-This repository contains the script used to run the following Shiny App:
-<br>
-<https://g-pinel.shinyapps.io/Haematoendothelial_E8_5/>
+This repository contains the script used to run the following Shiny App: <br> <https://g-pinel.shinyapps.io/Haematoendothelial_E8_5/>
 
 This web app is a companion to our publication *Discovery of New Markers for Haemogenic Endothelium and Haematopoietic Progenitors in the Mouse Yolk Sac* ([pubmed link](https://pubmed.ncbi.nlm.nih.gov/41562864/)). (See my [publications page](https://g-pinel.github.io/portfolio_guillermo/publications.html) for further information).
 
@@ -36,16 +34,13 @@ You can query any gene to generate plots showing normalised expression levels an
 
 <https://github.com/ruhrberg/BulkECexplorer>
 
-This repository contains the script used to run the following Shiny App:
-<br>
-<https://ruhrberglab.shinyapps.io/BulkECexplorer/>
+This repository contains the script used to run the following Shiny App: <br> <https://ruhrberglab.shinyapps.io/BulkECexplorer/>
 
 This web appplicaton was published in the article *The BulkECexplorer compiles endothelial bulk transcriptomes to predict functional versus leaky transcription* ([pubmed link](https://pubmed.ncbi.nlm.nih.gov/38708406/)). (See my [publications page](https://g-pinel.github.io/portfolio_guillermo/publications.html) for further information).
 
-With this app, you can access and analyse gene expression across the 240 samples in our endothelial cell (EC) bulk RNAseq data compendium. These samples include 5 EC subtypes commonly used in vascular biology research: HUVECs and HDMECs (human); lung, brain and retina ECs (mouse). The resulting dashboard, apart from **gene expression levels**, shows **predictions for active (functional) versus leaky (non-functional) gene expression** using three different classification methods. 
+With this app, you can access and analyse gene expression across the 240 samples in our endothelial cell (EC) bulk RNAseq data compendium. These samples include 5 EC subtypes commonly used in vascular biology research: HUVECs and HDMECs (human); lung, brain and retina ECs (mouse). The resulting dashboard, apart from **gene expression levels**, shows **predictions for active (functional) versus leaky (non-functional) gene expression** using three different classification methods.
 
-<img src="images/bulkecexplorer_app1.png" align="left" width="66%" style="float:none; padding-top:5px"/>
-<img src="images/bulkecexplorer_app2.png" align="left" width="33%" style="float:none; padding-top:5px"/>
+<img src="images/bulkecexplorer_app1.png" align="left" width="66%" style="float:none; padding-top:5px"/> <img src="images/bulkecexplorer_app2.png" align="left" width="33%" style="float:none; padding-top:5px"/>
 
 ### runDESeq2
 
@@ -67,7 +62,6 @@ After performing differential expression analyses to obtain a list of differenti
 
 The functions in this repository allow you to easily **run enrichment analyses in R against the Gene Ontology, KEGG, Wiki Pathways and Reactome databases** using DESeq2's DeseqDataSet (DDS) objects as inputs.
 
-
 ### autoGSEApreranked
 
 <https://github.com/g-pinel/autoGSEApreranked>
@@ -82,13 +76,10 @@ The scripts in this repository allows you to easily **generate the RNK files** n
 
 You can find more information about GSEA [here](https://www.gsea-msigdb.org/gsea/index.jsp).
 
-
 ### qPCR analyzer
 
 <https://github.com/g-pinel/qPCR-analyzer>
 
 <img src="images/quantstudio.jpg" align="left" width="22%" style="float:left; padding-top:6px; padding-right:20px"/>
 
-Process your **qRT-PCR data generated using QuantStudio** with a single command. Simply provide your QuantStudio output excel files to obtain CTs, delta CTs, and levels (2<sup>-ΔCt</sup>). 
-<br><br>
-Both XLS and XLSX supported, as well as combining multiple files from the same project.
+Process your **qRT-PCR data generated using QuantStudio** with a single command. Simply provide your QuantStudio output excel files to obtain CTs, delta CTs, and levels (2<sup>-ΔCt</sup>). <br><br> Both XLS and XLSX supported, as well as combining multiple files from the same project.
